@@ -102,6 +102,7 @@ exercise = exercise_mapping[exercise]
 if st.button("🚀 Predict Claim", use_container_width=True):
 
     input_data = pd.DataFrame({
+         "Customer_ID":[1],
 
         "Age":[age],
 
@@ -193,6 +194,7 @@ if st.button("🚀 Predict Claim", use_container_width=True):
     st.subheader("Prediction Summary")
 
     summary = pd.DataFrame({
+         "Customer_ID":[1],
 
         "Age":[age],
 
