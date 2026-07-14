@@ -157,6 +157,7 @@ if st.button("🚀 Predict Premium", use_container_width=True):
     st.subheader("Customer Summary")
 
     summary = pd.DataFrame({
+         "Customer_ID":[1],
 
         "Age":[age],
 
