@@ -101,6 +101,7 @@ exercise = exercise_mapping[exercise]
 if st.button("🚀 Predict Premium", use_container_width=True):
 
     input_data = pd.DataFrame({
+        "Customer_ID":[1],
 
         "Age":[age],
 
